@@ -3,7 +3,7 @@
 <preference name="phonegap-version" value="cli-9.0.0" />
   <name>Hola Mundo v3</name>
   <description>
-      Esta es una App de PhoneGap version 2
+      Esta es una App de PhoneGap Hola Mundo version 3
   </description>
   <author email="Luis Eduardo Garcia Caltzoncin" href="http://cordova.io">
       Apache Cordova Team
