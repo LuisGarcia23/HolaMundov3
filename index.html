@@ -15,7 +15,15 @@
             var element = document.getElementById('appInfo');
             //replace it with specific information about the device
             //running the application
-            element.innerHTML = 'PhoneGap ( Version'+ device.phonegap + ')<br/>' + device.plataform + ' ' + device.name + ' (version '+ device.version +').';
+            element.innerHTML = 'PhoneGap ( Version '+ device.cordova +').'+ 
+            '<br/> Nombre' + device.name +'.'+ 
+            '<br/> Nombre del modelo' + device.model +'.'+ 
+            '<br/> Plataforma: '+ device.platform + '.'+ 
+            '<br/> Identificador: '+ device.uuid + '.'+ 
+            '<br/> Version: '+ device.version + '.'+ 
+            '<br/> Fabricante: '+ device.manufacturer + '.'+ 
+            '<br/> Emulador: '+ device.isVirtual + '.'+ 
+            '<br/> Numero serial: '+ device.serial + '.';
 
         }
    </script>
